@@ -13,6 +13,7 @@ function PostList(props) {
   const postList = props.postList;
 
   const [viewList, setViewList] = useState([]);
+  const [tagViewHolder, setTagViewHolder] = useState();
   
   const getViewList = (postList, page, pagingSize) => {
     let ret = [];
@@ -28,6 +29,10 @@ function PostList(props) {
   useEffect(() => {
     setViewList(getViewList(postList, page, pagingSize));
   }, [page, postList]);
+
+  useEffect(() => {
+    setTagViewHolder(tag == 'all' ? '' : '#' + tag);
+  }, [tag, tagViewHolder])
 
   return (
     <div style={{
@@ -52,6 +57,9 @@ function PostList(props) {
         justifyContent: 'center',
         width: '100%',
       }}>
+        <span>
+          {tagViewHolder}
+        </span>
         <IndexSelector
           currentIndex={page}
           maxIndex={Math.ceil(postList.length / pagingSize)}
