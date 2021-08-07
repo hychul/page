@@ -1,15 +1,15 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import ReactPage from 'page/ReactPage';
-import Navigator from 'component/navigator/Navigator';
-import PostListPage from 'page/PostListPage';
-import PostPage from 'page/PostPage';
-import TagMapPage from 'page/TagMapPage';
-import DevgramPage from 'page/DevgramPage';
-import PortfolioPage from 'page/PortfolioPage';
-import TestPage from 'page/TestPage';
-import Copyright from 'component/copyright/Copyright';
-import ScrollToTop from 'component/ScrollToTop';
+import ReactPage from 'javascript/page/ReactPage';
+import Navigator from 'javascript/component/navigator/Navigator';
+import PostListPage from 'javascript/page/PostListPage';
+import PostPage from 'javascript/page/PostPage';
+import TagMapPage from 'javascript/page/TagMapPage';
+import DevgramPage from 'javascript/page/DevgramPage';
+import PortfolioPage from 'javascript/page/PortfolioPage';
+import TestPage from 'javascript/page/TestPage';
+import Copyright from 'javascript/component/copyright/Copyright';
+import ScrollToTop from 'javascript/component/ScrollToTop';
 
 function App() {
   return (

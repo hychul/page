@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { withRouter } from 'react-router';
-import IndexSelector from 'component/IndexSelector';
-import 'static/style/App.scss';
+import IndexSelector from 'javascript/component/IndexSelector';
+import 'resources/style/App.scss';
 import PostListElement from './PostListElement';
 
 const pagingSize = 10;

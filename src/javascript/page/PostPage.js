@@ -1,5 +1,5 @@
 import React from 'react';
-import PostContainer from 'container/post/PostContainer';
+import PostContainer from 'javascript/container/post/PostContainer';
 
 function PostPage(props) {
   const postId = props.match.params.id;

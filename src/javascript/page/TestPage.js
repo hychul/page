@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import queryStirng from 'query-string';
-import { TEST_DECREMENT, TEST_INCREMENT } from 'redux/action';
-import ReduxTest from 'component/test/ReduxTest';
+import { TEST_DECREMENT, TEST_INCREMENT } from 'javascript/redux/action';
+import ReduxTest from 'javascript/component/test/ReduxTest';
 
 function TestPage(props) {
   const counter = props.counter;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import Post from 'component/post/Post';
-import { loadPosts } from 'redux/reducer/post';
+import Post from 'javascript/component/post/Post';
+import { loadPosts } from 'javascript/redux/reducer/post';
 
 function PostContainer(props) {
   props.loadPosts();
@@ -26,7 +26,7 @@ function PostContainer(props) {
 
   useEffect(() => {
     try {
-      const data = require(`static/post/blog/${postId}.md`);
+      const data = require(`resources/post/blog/${postId}.md`);
       fetch(data.default).then(it => it.text()).then(it => setSource(it));
     } catch (e) {
       setSource("The file you are looking for does not exist.");

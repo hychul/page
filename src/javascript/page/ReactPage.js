@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from 'static/image/reactLogo.svg';
+import logo from 'resources/image/reactLogo.svg';
 import styled, { keyframes } from 'styled-components';
 
 const spin = keyframes`

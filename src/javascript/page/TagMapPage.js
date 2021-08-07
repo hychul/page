@@ -1,6 +1,6 @@
 import React from 'react';
 import queryStirng from 'query-string';
-import TagMapContainer from 'container/tag/TagMapContainer';
+import TagMapContainer from 'javascript/container/tag/TagMapContainer';
 
 function TagMapPage({location, history}) {
   const query = queryStirng.parse(location.search);

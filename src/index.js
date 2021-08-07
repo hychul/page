@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { HashRouter } from 'react-router-dom';
-import configureStore from 'redux/store/index';
+import configureStore from 'javascript/redux/store/index';
 
 let store = configureStore();
 

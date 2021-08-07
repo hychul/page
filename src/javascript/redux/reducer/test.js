@@ -1,4 +1,4 @@
-import { TEST_DECREMENT, TEST_INCREMENT } from "redux/action";
+import { TEST_DECREMENT, TEST_INCREMENT } from "javascript/redux/action";
 
 const initialState = {
   count: 0

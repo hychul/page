@@ -14,7 +14,7 @@ export const loadPosts = () => (dispatch, getState) => {
     return;
   }
 
-  const data = require(`static/post/post.meta`);
+  const data = require(`resources/post/post.meta`);
 
   fetch(data.default)
     .then(it => it.text())

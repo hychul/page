@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import dduggy from 'static/image/dduggy.jpg';
+import dduggy from 'resources/image/dduggy.jpg';
 
 const nav = {
   display: 'flex',

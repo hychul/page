@@ -1,7 +1,7 @@
-import TagMap from 'component/post/TagMap';
+import TagMap from 'javascript/component/post/TagMap';
 import React from 'react';
 import { connect } from 'react-redux';
-import { loadPosts } from 'redux/reducer/post';
+import { loadPosts } from 'javascript/redux/reducer/post';
 
 function TagMapContainer(props) {
   props.loadPosts();

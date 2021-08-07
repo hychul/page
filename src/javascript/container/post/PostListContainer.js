@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import PostList from 'component/post/PostList';
-import { loadPosts } from 'redux/reducer/post';
+import PostList from 'javascript/component/post/PostList';
+import { loadPosts } from 'javascript/redux/reducer/post';
 
 function PostListContainer(props) {
   props.loadPosts();

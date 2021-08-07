@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import 'static/style/App.scss';
+import 'resources/style/App.scss';
 
 function PostListElement(props) {
   const filename = props.post.filename;
