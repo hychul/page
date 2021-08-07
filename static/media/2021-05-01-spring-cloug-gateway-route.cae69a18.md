@@ -164,15 +164,15 @@ handlerMAppings에서 기본적인 controller나 router function 들에 대한 �
 먼저 기본적으로 등록되는 글로벌 필터들을 살펴보면 다음과 같다.
 
 ```
-`RemomveCachedBodyFilter` : -2147483648
-`AdaptCachedBodyGlobalFilter` : -2147483648
-`NettyWriteResponseFilter` : -1
-`ForwardPathFilter` : 0
+ `RemomveCachedBodyFilter` : -2147483648
+ `AdaptCachedBodyGlobalFilter` : -2147483648
+ `NettyWriteResponseFilter` : -1
+ `ForwardPathFilter` : 0
 *`RouteToRequestUrlFilter` : 10000
 *`ReactiveLoadBalancerClientFilter` : 10150
-`WebsocketRoutingFilter` : 2147483646
+ `WebsocketRoutingFilter` : 2147483646
 *`NettyRoutingFilter` : 2147483647
-`ForwardRoutingFilter` : 2147483647
+ `ForwardRoutingFilter` : 2147483647
 ```
 
 앞서 설명한 것과 같이 필터들은 순서<sup>Order</sup>에 의해 체이닝되어 순서대로 동작한다. 이중 로드 밸런스를 사용한 라우팅에서 사용되는 필터에는 이름 앞에 '*'로 표시를 해두었다.
