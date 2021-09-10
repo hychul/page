@@ -6,3 +6,5 @@ JPA를 사용한 프로젝트에서 엔티티를 구현할 때 Java Persistence<
 2. IntelliJ [Tools]-[Kotlin]-[Show Kotlin Bytecode] 을 통해 변환하여 decompile 하여 코드를 확인하면 기본 생성자가 자동으로 추가된 것을 알 수 있다.
 
 <a name="java_persistence_doc">1</a> : "The entity class must have a no-arg constructor. The entity class may have other constructors as well. The no-arg constructor must be public or protected." of https://download.oracle.com/otndocs/jcp/persistence-2_1-fr-eval-spec/index.html
+
+ref : https://blog.sapzil.org/2017/11/02/kotlin-jpa-pitfalls/
