@@ -117,3 +117,6 @@ export APP_HOME=/home1/irteam
 export JAVA_HOME=${APP_HOME}/apps/jdk
 export PATH=${JAVA_HOME}/bin:$PATH
 ```
+
+JAVA_HOME을 설정한 후 `java -version`을 호출하더라도 버전이 업데이트한 버전으로 보여지지 않는 경우가 있다. 그렇다면 다음 링크...
+https://stackoverflow.com/questions/10687093/java-home-and-java-version

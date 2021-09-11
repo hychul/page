@@ -66,16 +66,16 @@
 2018-04-08-git-text-color :: Git Text Color 설정 :: git
 2018-04-04-tobis-spring-3.1-vol1-chapter3 :: 토비의 스프링 3.1 vol.1 3장 - 템플릿 :: java, spring, tobys-spring-3.1
 2018-04-03-tobis-spring-3.1-vol1-chapter2 :: 토비의 스프링 3.1 vol.1 2장 - 테스트 :: java, spring, tobys-spring-3.1
-2018-04-02-game-resource-management :: 게임 리소스 관리
-2018-04-01-object-pooling :: 오브젝트 풀링
+2018-04-02-game-resource-management :: 게임 리소스 관리 :: game
+2018-04-01-object-pooling :: 오브젝트 풀링 ::
 2018-03-31-tobis-spring-3.1-vol1-chapter1 :: 토비의 스프링 3.1 vol.1 1장 - 오브젝트와 의존관계 :: java, spring, tobys-spring-3.1
 2017-09-01-git-update-credential :: Git 계정 재설정 :: git
 2016-08-18-android-extern-module :: 안드로이드 외부 모듈 참조하기 :: android
-2015-10-31-window-disk-error :: 윈도우 설치 에러 - gpt 디스크에만 Windows를 설치할 수 있습니다.
+2015-10-31-window-disk-error :: 윈도우 설치 에러 - gpt 디스크에만 Windows를 설치할 수 있습니다. :: tip, window
 2015-10-28-java-nan :: 자바 NaN :: java
 2015-10-28-android-multi-touch :: 안드로이드 멀티 터치 이벤트 처리 :: android
 2015-10-15-java-callback-implement :: 자바 콜백 구현 :: java
-2015-10-09-window-bluetooth-keyboard-issue :: 윈도우10 블루투스 키보드 입력이 안될 때
+2015-10-09-window-bluetooth-keyboard-issue :: 윈도우10 블루투스 키보드 입력이 안될 때 :: tip, window
 2015-10-08-c-realtime-input :: C 실시간 키보드 입력 받기 :: c
 2015-09-21-linux-compile :: 리눅스 커널 컴파일하기 :: c, linux
 2015-08-29-window-storage-optimize :: 윈도우 저장 공간 늘리기 :: tip, window
